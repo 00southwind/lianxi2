@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>选项卡</title>
+<script src="jquery-3.1.1.min.js"></script>
+<style>
+*{
+	margin: 0;
+    padding: 0;}
+.box{
+	width: 800px;
+	height: 400px;
+	margin: 0 auto;
+	margin-top: 50px;
+	}
+ul{
+	display: block;
+	clear: both;
+	width: 100%;
+	height:40px;
+	}
+ul li{
+	display: block;
+	width: 20%;
+	height: 100%;
+	line-height: 40px;
+	float: left;
+	background: #FCC;
+	list-style: none;
+	text-align: center;
+	cursor: pointer;}
+ul li.active{
+	background: #F90;
+	color: #FFF;}
+
+
+</style>
+<script>
+    $(function(){
+		 $('.menu').click(function(ev){
+
+		  $('li').addClass('active').siblings().removeClass('active');
+	
+	        });
+		 });
+</script>
+</head>
+
+<body>
+   <div class="box">
+		<ul class="menu">
+			<li class="active">列表1</li>
+			<li>列表2</li>
+            <li>列表3</li>
+            <li>列表4</li>
+            <li>列表5</li>
+		</ul>
+	</div>
+</body>
+</html>

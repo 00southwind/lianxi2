@@ -1,0 +1,1079 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>京东商城</title>
+<script src="../JS/jquery-3.1.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="../CSS/jingdong.css">
+
+</head>
+
+<body>
+<div class="container">
+  <div class="header">
+     <ul class="menulist">
+         <li class="h">定位</li>
+         <li><a href="#" class="dl">你好，请登录</a></li>
+         <li><a href="#">免费注册</a></li>
+         <li><a href="#">我的订单</a></li>
+         <li><a href='#'>我的京东</a></li>
+         <li><a href="#">京东会员</a></li>
+         <li><a href="#">企业采购</a></li>
+         <li><a href='#'>客户服务</a></li>
+         <li><a href="#">网站导航</a></li>
+     </ul>
+  </div><!--header end-->
+  
+<div class="head">
+    <div class="logo"></div>
+    <div class="form">
+         <input id="b" type="text" name="te" />
+         <form>
+         <input id="s" type="button" value="搜索">
+         </form>
+    </div>
+    <div  class="shopping_cart">购物车</div>
+    <div class="navigation">
+        <ul>
+            <li>秒杀</li>
+            <li>优惠卷</li>
+            <li>闪购</li>
+            <li>拍卖</li>
+            <li>服饰城</li>
+            <li>京东超市</li>
+            <li>生鲜</li>
+            <li>全球购</li>
+            <li>京东金融</li>
+        </ul>
+    </div>
+</div><!--head end-->
+
+<div class="midder">
+<div class="left">
+    <ul>
+        <li>家用电器</li>
+        <li>手机/运营商/数码</li>
+        <li>电脑办公</li>
+        <li>家居/家居/家装/厨具</li>
+        <li>男装/女装/童装/内衣</li>
+        <li>个人化妆品/清洁用品/宠物</li>
+        <li>鞋靴/箱包/珠宝/奢侈品</li>
+        <li>运动/户外/钟表</li>
+        <li>汽车/汽车用品</li>
+        <li>母婴/玩具乐器</li>
+        <li>食品/酒类/生鲜/特产</li>
+        <li>医药保健</li>
+        <li>图书/音像/电子书</li>
+        <li>彩票/旅行/充值/票务</li>
+        <li>理财/众筹/白条/保险</li>
+    </ul>
+</div><!--left end-->
+
+<div class="mid">
+     <div class="shuffling">
+   <ul >
+      <li id="Switcth1" class="active" onMouseover="stop(1)" onMouseOut="start(2)"></li>
+      <li id="Switcth2"  onMouseover="stop(2)" onMouseOut="start(3)"></li>
+      <li id="Switcth3"  onMouseover="stop(3)" onMouseOut="start(4)"></li>
+      <li id="Switcth4"  onMouseover="stop(4)" onMouseOut="start(5)"></li>
+      <li id="Switcth5"  onMouseover="stop(5)" onMouseOut="start(6)"></li>
+      <li id="Switcth6"  onMouseover="stop(6)" onMouseOut="start(1)"></li>
+   </ul>
+      <div id="pic1" class="picture1"><img src="../images/l1.png" ></div>
+      <div id="pic2" class="picture2"><img src="../images/l2.png" ></div>
+      <div id="pic3" class="picture3"><img src="../images/l3.png" ></div>
+      <div id="pic4" class="picture4"><img src="../images/l4.png" ></div>
+      <div id="pic5" class="picture5"><img src="../images/l5.png" ></div>
+      <div id="pic6" class="picture6"><img src="../images/l6.png"></div>
+
+</div>
+     <div class="bottom">
+         <div class="M2"><img src="../images/m2.png" width="290" height="130"></div>
+         <div class="M3"><img src="../images/m3.png" width="290" height="130"></div>
+     </div>
+</div><!--mid end-->
+
+<div class="right">
+    <div class="r1">
+        <div class="figure"></div>
+        <div class="welcome">Hi,欢迎来到京东！</div>
+        <div class="information">
+         <p>  
+               <a href="#";id="login">登录</a>
+               <a href="#";id="registered">注册</a>
+          </p>
+          <div class="box0">
+            <ul>
+               <li class="welfare"><a href="#">新人福利</a></li>
+               <li class="plus"><a href="#">PLUS会员</a></li>
+            </ul>
+            </div>
+        </div>
+    </div><!--r1 end-->
+    
+    <div class="r2">
+        <div class="advertising">
+           <p>  <a href="#">促销</a>
+             <a href="#">公告</a>
+              <a href="#">更多</a></p>  
+        </div>
+        <div class="show"></div>
+    </div><!--r2 end-->
+    
+    <div class="r3">
+      <div class="list">
+       <p>话费 机票 电影票 游戏</p>
+
+        <p>企业购 加油卡 酒店 火车票</p>
+        
+         <p>理财 礼品卡 白条</p> 
+       </div>
+        <p>  <a href="#"; class="tu13">京东无线</a></p>
+       
+    </div><!--r3 end-->
+ </div><!--right end-->
+</div><!--midder end-->
+
+<div class="seckill"> 
+    <div class="Time">
+    <div class="Time_hd">
+     <h3>京东秒杀</h3>
+     <p><a href="#" class="hd" >总有你想不到的低价</a></p>
+     </div>
+     <div id="sk_time"></div>
+    </div>
+    <div class="activity">
+      <ul>
+         <li><img src="../images/s6.png" width="160" height="220"></li>
+         <li><img src="../images/s5.png" width="160" height="220"></li>
+         <li><img src="../images/s4.png" width="160" height="220"></li>
+         <li><img src="../images/s3.png" width="160" height="220"></li> 
+         <li><img src="../images/s2.png" width="160" height="220"></li>
+         <li><img src="../images/s1.png" width="160" height="220"></li>
+      </ul>
+    </div>
+</div><!--seckill end-->
+<div class="Recommended">
+     <div class="Found">
+          <div class="hd1">
+               <h3>发现好货</h3>
+               <p class="F1">发现品牌生活</p>
+          </div>
+          <div class="goods1">
+            <ul>
+               <li class="item" id="f1">
+                  <p>森海塞耳头戴式耳机</p>
+                  <img src="../images/f1.jpg" >
+               </li>
+               <li class="item" id="f2">
+                  <p></p>
+                  <img src="../images/f2.jpg" >
+               </li>
+               <li class="item" id="f3">
+                  <p></p>
+                  <img src="../images/f3.png" >
+               </li>
+               <li class="item" id="f4">
+                  <p></p>
+                  <img src="../images/f4.jpg" >
+               </li>
+               <li class="item" id="f5">
+                  <p></p>
+                  <img src="../images/f5.jpg" >
+               </li>
+               <li class="item" id="f6">
+                  <p></p>
+                  <img src="../images/f6.jpg" >
+               </li>
+            </ul>
+         </div>
+     </div>
+     <div class="Frand">
+        <div class="hd2">
+            <h3>品牌街</h3>
+            <p class="F1">大牌资讯全掌握</p>
+        </div>
+          <div class="goods2">
+            <ul>
+               <li class="message1">
+                    <p>大牌新品</p>
+                    <p>大象复古机械键盘</p>
+                    <div class="Img"><img src="../images/f7.jpg" width="140" height="120"></div>
+                </li>
+               <li class="message2">
+                 
+                   <p>酷派 cool 1c</p>
+                   <p>预约赢机器人</p>
+                   <div class="Img"><img src="../images/f8.jpg" width="140" height="120"></div>
+               </li>
+               <li class="message3">
+                   <img src="../images/f9.jpg" width="320" height="130">
+               </li>
+            </ul>
+          </div>
+     </div>
+     <div class="Ranking">
+        <div class="hd3">
+            <h3>排行榜</h3>
+            <p class="F1">热卖爆款疯狂抢</p>
+        </div>
+           <div class="List">
+            <ul>
+               <li>手机</li>
+               <li>儿童文学</li>
+               <li>爱情/情感</li>
+               <li>休闲裤</li>
+               <li>牛仔裤</li>
+            </ul>
+          </div>
+     </div>
+</div><!--Recommended-->
+<div class="Coupons">
+   <div class="Center">
+      <h3 class="text_hd">领卷中心</h3>
+      <p class="C">没抢到?</p>
+      <p class="C">可以去看看更多优惠券</p>
+      <div class="center_btn">前往领卷中心</div>
+   </div>
+   <div class="vouchers">
+      <ul>
+         <li class="v">
+   
+            <img src="../images/v1.jpg" width="100" height="130" class="money_img">
+         </li>
+         <li class="v">
+   
+            <img src="../images/v2.png" width="100" height="130">
+         </li>
+         <li class="v">
+      
+            <img src="../images/v3.jpg" width="100" height="130">
+         </li>
+         <li class="v">
+
+             <img src="../images/v4.png" width="100" height="130">
+         </li>
+         <li class="v">
+             
+             <img src="../images/v5.png" width="100" height="130">
+         </li>
+      </ul >
+   </div>
+</div><!--Coupons-->
+<div class="Banner1">
+  <ul>
+     <li><img src="../images/banner1_1.png" width="330" height="100"></li>
+     <li><img src="../images/banner1_2.jpg" width="330" height="100"></li>
+     <li><img src="../images/banner1_3.jpg" width="330" height="100"></li>
+  </ul>
+</div><!--banner1-->
+<div class="Entry1">
+   <div class="divider1">
+       <h3>享品质</h3>
+   </div>
+   <div class="entry_inner1">
+      <ul>
+         <li><img src="../images/inner1.jpg" width="320" height="160"></li>
+         <li><img src="../images/inner2.jpg" width="320" height="160"></li>
+         <li><img src="../images/inner3.png" width="320" height="160"></li>
+         <li><img src="../images/inner4.jpg" width="320" height="160"></li>
+         <li><img src="../images/inner5.jpg" width="320" height="160"></li>
+         <li><img src="../images/inner6.png" width="320" height="160"></li>
+      </ul>
+   </div>
+</div><!--Entry1-->
+<div class="Banner2">
+  <ul>
+     <li class="B2"><img src="../images/banner2_1.jpg" width="330" height="100"></li>
+     <li class="B2"><img src="../images/banner2_2.jpg" width="330" height="100"></li>
+     <li class="B2"><img src="../images/banner2_3.jpg" width="330" height="100"></li>
+  </ul>
+</div><!--banner2-->
+<div class="Entry2">
+    <div class="divider2">
+       <h3>爱生活</h3>
+    </div>
+    <div class="entry_inner2">
+       <div class="inner_left1">
+           <div class="left1_hd">
+             <h3>爱逛</h3> 
+             <ul>
+                <li>保暖羽绒</li>
+                <li>功能箱包</li>
+                <li>时尚手表</li>
+                <li>珠宝首饰</li>
+                <li>奢品1212</li>
+             </ul>
+           </div>
+           <div class="left1_show">
+              <ul>
+                <li><img src="../images/show1.jpg" width="150" height="260"></li>
+                <li class="show_img"><img src="../images/show6.jpg" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/show3.jpg" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/show4.jpg" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/show5.jpg" width="100" height="100"></li>
+                <li class="show_img0"><img src="../images/show2.jpg" width="150" height="130"></li>
+                <li class="show_img0"><img src="../images/show7.jpg" width="150" height="130"></li>
+                <li class="show_img0"><img src="../images/show8.jpg" width="150" height="130"></li>
+             </ul>
+           </div>
+           <div class="left1_logo">
+               <ul>
+                <li><img src="../images/inner_logo1.jpg"></li>
+                <li><img src="../images/inner_logo2.png"></li>
+                <li><img src="../images/inner_logo3.png"></li>
+                <li><img src="../images/inner_logo4.jpg"></li>
+                <li><img src="../images/inner_logo5.png"></li>
+                <li><img src="../images/inner_logo6.jpg"></li>
+             </ul>
+           </div>
+      </div>
+       <!--inner_left1-->
+       
+      <div class="inner_right1">
+           <div class="right1_hd">
+               <h3>爱美丽</h3> 
+             <ul>
+                <li>套装</li>
+                <li>乳液面霜</li>
+                <li>面膜</li>
+                <li>洁面</li>
+                <li>保洁洗护</li>
+                <li>身体护理</li>
+             </ul>
+           </div>
+           <div class="right1_show">
+               <ul>
+                <li><img src="../images/show9.jpg" width="150" height="260"></li>
+                <li class="show_img"><img src="../images/show15.jpg" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/show14.jpg" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/show11.jpg" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/show12.jpg" width="100" height="100"></li>
+                <li class="show_img0"><img src="../images/show13.jpg" width="150" height="130"></li>
+                <li class="show_img0"><img src="../images/show10.jpg" width="150" height="130"></li>
+                <li class="show_img0"><img src="../images/show16.jpg" width="150" height="130"></li>
+             </ul>
+           </div>
+           <div class="right1_logo">
+              <ul>
+                <li><img src="../images/inner_logo7.png"></li>
+                <li><img src="../images/inner_logo8.png"></li>
+                <li><img src="../images/inner_logo9.jpg"></li>
+                <li><img src="../images/inner_logo10.jpg"></li>
+                <li><img src="../images/inner_logo11.jpg"></li>
+                <li><img src="../images/inner_logo12.jpg"></li>
+             </ul>
+           </div>
+      </div><!--inner_right1-->
+   </div><!--entry_inner2-->
+<div><!--Entry2-->
+
+<div class="Entry3">
+<div class="inner_left2">
+   <div class="left2_hd">
+       <h3>家电馆</h3>
+       <ul>
+          <li>电视家影</li>
+          <li>美容器</li>
+          <li>送电视挂架</li>
+          <li>洗衣机</li>
+          <li>满600减100</li>
+       </ul>
+   </div>
+   <div class="left2_show">
+             <ul>
+                <li><img src="../images/d1.jpg" width="193" height="260"></li>
+                <li class="show_img"><img src="../images/d2.png" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/d3.png" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/d4.jpg" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/d5.jpg" width="100" height="100"></li>
+                <li class="show_img0"><img src="../images/d6.jpg" width="150" height="130"></li>
+                <li class="show_img0"><img src="../images/d7.jpg" width="150" height="130"></li>
+                <li class="show_img0"><img src="../images/d8.jpg" width="150" height="130"></li>
+             </ul>
+   </div>
+   <div class="left2_logo">
+        <ul>
+          <li><img src="../images/left2_logo1.jpg"></li>
+          <li><img src="../images/left2_logo2.jpg"></li>
+          <li><img src="../images/left2_logo3.jpg"></li>
+          <li><img src="../images/left2_logo4.jpg"></li>
+          <li><img src="../images/left2_logo5.jpg"></li>
+          <li><img src="../images/left2_logo6.jpg"></li>
+        </ul>
+   </div>
+</div>
+<!--inner_left2-->
+<div class="inner_right2">
+    <div class="right2_hd">
+        <h3>搞机派</h3>
+        <ul>
+          <li>金属机身</li>
+          <li>快速充电</li>
+          <li>拍照神器</li>
+          <li>后置双摄像</li>
+          <li>双卡双待</li>
+        </ul>
+    </div>
+    <div class="right2_show">
+       <ul>
+                <li><img src="../images/g1.jpg" width="150" height="260"></li>
+                <li class="show_img"><img src="../images/g2.jpg" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/g3.jpg" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/g4.jpg" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/g5.jpg" width="100" height="100"></li>
+                <li class="show_img0"><img src="../images/g6.jpg" width="150" height="130"></li>
+                <li class="show_img0"><img src="../images/g7.jpg" width="150" height="130"></li>
+                <li class="show_img0"><img src="../images/g8.jpg" width="150" height="130"></li>
+             </ul>
+    </div>
+    <div class="right2_logo">
+        <ul>
+          <li><img src="../images/left2_logo7.jpg"></li>
+          <li><img src="../images/left2_logo8.jpg"></li>
+          <li><img src="../images/left2_logo9.jpg"></li>
+          <li><img src="../images/left2_logo10.jpg"></li>
+          <li><img src="../images/left2_logo11.jpg"></li>
+          <li><img src="../images/left2_logo12.jpg"></li>
+        </ul>
+    </div>
+</div><!--inner_right2-->
+</div><!--Entry3 end-->
+
+<div class="Entry4">
+   <div class="entry4_hd">
+       <h3>电脑数码</h3>
+       <ul>
+          <li>IT精选</li>
+          <li>电脑馆</li>
+          <li>游戏极品</li>
+          <li>装机大师</li>
+          <li>职业办公</li>
+          <li>女神频道</li>
+          <li>VR</li>
+          <li>二合一平板</li>
+          <li>电子教育</li>
+          <li>摄影社区</li>
+          <li>全球智选</li>
+          <li>照片冲刷</li>
+       </ul>
+   </div>
+   <div class="entry4_inner">
+       <div class="left3_show">
+           <ul>
+              <li><img src="../images/d01.jpg" width="150" height="260"></li>
+              <li class="show_img"><img src="../images/d02.jpg" width="100" height="100"></li>
+              <li class="show_img"><img src="../images/d03.jpg" width="100" height="100"></li>
+              <li class="show_img"><img src="../images/d04.jpg" width="100" height="100"></li>
+              <li class="show_img"><img src="../images/d05.jpg" width="100" height="100"></li>
+              <li class="show_img0"><img src="../images/d06.jpg" width="150" height="130"></li>
+              <li class="show_img0"><img src="../images/d07.jpg" width="150" height="130"></li>
+              <li class="show_img0"><img src="../images/d08.jpg" width="150" height="130"></li>
+           </ul>
+       </div>
+       <div class="right3_show">
+           <ul>
+              <li><img src="../images/d9.jpg" width="150" height="260"></li>
+              <li class="show_img"><img src="../images/d10.jpg" width="100" height="100"></li>
+              <li class="show_img"><img src="../images/d11.jpg" width="100" height="100"></li>
+              <li class="show_img"><img src="../images/d12.jpg" width="100" height="100"></li>
+              <li class="show_img"><img src="../images/d13.jpg" width="100" height="100"></li>
+              <li class="show_img0"><img src="../images/d14.jpg" width="150" height="130"></li>
+              <li class="show_img0"><img src="../images/d15.jpg" width="150" height="130"></li>
+              <li class="show_img0"><img src="../images/d16.jpg" width="150" height="130"></li>
+           </ul>
+       </div>
+       <div class="entry4_logo">
+          <ul>
+             <li><img src="../images/entry4_logo1.jpg"></li>
+             <li><img src="../images/entry4_logo2.jpg"></li>
+             <li><img src="../images/entry4_logo3.jpg"></li>
+             <li><img src="../images/entry4_logo4.jpg"></li>
+             <li><img src="../images/entry4_logo5.jpg"></li>
+             <li><img src="../images/entry4_logo6.jpg"></li>
+             <li><img src="../images/entry4_logo7.jpg"></li>
+             <li><img src="../images/entry4_logo8.jpg"></li>
+             <li><img src="../images/entry4_logo9.jpg"></li>
+             <li><img src="../images/entry4_logo10.jpg"></li>
+             <li><img src="../images/entry4_logo11.jpg"></li>
+             <li><img src="../images/entry4_logo12.jpg"></li>
+          </ul>
+       </div>
+   </div>  
+</div><!--Entry4 end-->
+
+<div class="Entry5">
+<div class="inner_left4">
+   <div class="left4_hd">
+       <h3>玩3C</h3>
+       <ul>
+          <li>手机</li>
+          <li>电脑</li>
+          <li>数码</li>
+          <li>智能设备</li>
+          <li>手机新品</li>
+          <li>电脑热卖</li>
+       </ul>
+   </div>
+   <div class="left4_show">
+             <ul>
+                <li><img src="../images/left4_1.jpg" width="150" height="260"></li>
+                <li class="show_img"><img src="../images/left4_2.jpg" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/left4_3.jpg" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/left4_4.jpg" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/left4_5.jpg" width="100" height="100"></li>
+                <li class="show_img0"><img src="../images/left4_6.jpg" width="150" height="130"></li>
+                <li class="show_img0"><img src="../images/left4_7.jpg" width="150" height="130"></li>
+                <li class="show_img0"><img src="../images/left4_8.jpg" width="150" height="130"></li>
+             </ul>
+   </div>
+   <div class="left4_logo">
+        <ul>
+          <li><img src="../images/entry5_logo1.jpg"></li>
+          <li><img src="../images/entry5_logo2.png"></li>
+          <li><img src="../images/entry5_logo3.png"></li>
+          <li><img src="../images/entry5_logo4.jpg"></li>
+          <li><img src="../images/entry5_logo5.jpg"></li>
+          <li><img src="../images/entry4_logo8.jpg"></li>
+        </ul>
+   </div>
+</div>
+<!--inner_left4-->
+<div class="inner_right4">
+    <div class="right4_hd">
+        <h3>爱运动</h3>
+        <ul>
+          <li>跑步鞋3免1</li>
+          <li>户外鞋服3免1</li>
+          <li>跑步机3免1</li>
+          <li>自行车3免1</li>
+        </ul>
+    </div>
+    <div class="right4_show">
+       <ul>
+                <li><img src="../images/right4_1.jpg" width="150" height="260"></li>
+                <li class="show_img"><img src="../images/right4_2.jpg" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/right4_3.jpg" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/right4_4.jpg" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/right4_5.jpg" width="100" height="100"></li>
+                <li class="show_img0"><img src="../images/right4_6.jpg" width="150" height="130"></li>
+                <li class="show_img0"><img src="../images/right4_7.jpg" width="150" height="130"></li>
+                <li class="show_img0"><img src="../images/right4_8.jpg" width="150" height="130"></li>
+             </ul>
+    </div>
+    <div class="right4_logo">
+        <ul>
+          <li><img src="../images/entry5_logo7.jpg"></li>
+          <li><img src="../images/entry5_logo8.jpg"></li>
+          <li><img src="../images/entry5_logo9.jpg"></li>
+          <li><img src="../images/entry5_logo10.jpg"></li>
+          <li><img src="../images/entry5_logo11.jpg"></li>
+          <li><img src="../images/entry5_logo12.jpg"></li>
+        </ul>
+    </div>
+</div><!--inner_right4-->
+</div><!--Entry5 end-->
+
+<div class="Banner3">
+  <ul>
+     <li><img src="../images/banner3_1.jpg" width="330" height="100"></li>
+     <li><img src="../images/banner3_2.jpg" width="330" height="100"></li>
+     <li><img src="../images/banner3_3.jpg" width="330" height="100"></li>
+  </ul>
+</div><!--banner3-->
+
+<div class="Entry6">
+   <div class="entry6_hd">
+       <h3>爱吃</h3>
+       <ul>
+          <li>坚果蜜钱</li>
+          <li>冲饮牛奶</li>
+          <li>休闲零食</li>
+          <li>粮油调味</li>
+          <li>糖果巧克力</li>
+          <li>饼干蛋糕</li>
+          <li>白酒</li>
+          <li>红酒</li>
+          <li>美味海鲜</li>
+          <li>车厘子</li>
+          <li>安全蔬菜</li>
+          <li>天天果园</li>
+       </ul>
+   </div>
+   <div class="entry6_inner">
+       <div class="left5_show">
+           <ul>
+              <li><img src="../images/entry6_1.jpg" width="150" height="260"></li>
+              <li class="show_img"><img src="../images/entry6_2.jpg" width="100" height="100"></li>
+              <li class="show_img"><img src="../images/entry6_3.jpg" width="100" height="100"></li>
+              <li class="show_img"><img src="../images/entry6_4.jpg" width="100" height="100"></li>
+              <li class="show_img"><img src="../images/entry6_5.jpg" width="100" height="100"></li>
+              <li class="show_img0"><img src="../images/entry6_6.jpg" width="150" height="130"></li>
+              <li class="show_img0"><img src="../images/entry6_7.jpg" width="150" height="130"></li>
+              <li class="show_img0"><img src="../images/entry6_8.jpg" width="150" height="130"></li>
+           </ul>
+       </div>
+       <div class="right5_show">
+           <ul>
+              <li><img src="../images/entry6_9.jpg" width="150" height="260"></li>
+              <li><img src="../images/entry6_10.jpg" width="150" height="260"></li>
+              <li class="show_img0"><img src="../images/entry6_11.jpg" width="100" height="100"></li>
+              <li class="show_img"><img src="../images/entry6_12.jpg" width="100" height="100"></li>
+              <li class="show_img"><img src="../images/entry6_13.jpg" width="150" height="130"></li>
+              <li class="show_img"><img src="../images/entry6_14.jpg" width="150" height="130"></li>
+              <li class="show_img0"><img src="../images/entry6_15.jpg" width="150" height="130"></li>
+           </ul>
+       </div>
+       <div class="entry6_logo">
+          <ul>
+             <li><img src="../images/entry6_logo1.jpg"></li>
+             <li><img src="../images/entry6_logo2.jpg"></li>
+             <li><img src="../images/entry6_logo3.jpg"></li>
+             <li><img src="../images/entry6_logo4.jpg"></li>
+             <li><img src="../images/entry6_logo5.jpg"></li>
+             <li><img src="../images/entry6_logo6.jpg"></li>
+             <li><img src="../images/entry6_logo7.jpg"></li>
+             <li><img src="../images/entry6_logo8.jpg"></li>
+             <li><img src="../images/entry6_logo9.jpg"></li>
+             <li><img src="../images/entry6_logo10.jpg"></li>
+             <li><img src="../images/entry6_logo11.jpg"></li>
+             <li><img src="../images/entry6_logo12.jpg"></li>
+          </ul>
+       </div>
+   </div>  
+</div><!--Entry6 end-->
+
+<div class="Entry7">
+<div class="inner_left6">
+   <div class="left6_hd">
+       <h3>爱宝宝</h3>
+       <ul>
+          <li>洗护喂养</li>
+          <li>妈妈专区</li>
+          <li>数码</li>
+          <li>寝居服饰</li>
+          <li>婴儿推车</li>
+          <li>安全座椅</li>
+       </ul>
+   </div>
+   <div class="left6_show">
+             <ul>
+                <li><img src="../images/7_1.jpg" width="150" height="260"></li>
+                <li class="show_img"><img src="../images/7_2.jpg" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/7_3.jpg" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/7_4.jpg" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/7_5.jpg" width="100" height="100"></li>
+                <li class="show_img0"><img src="../images/7_6.jpg" width="150" height="130"></li>
+                <li class="show_img0"><img src="../images/7_7.jpg" width="150" height="130"></li>
+                <li class="show_img0"><img src="../images/7_8.jpg" width="150" height="130"></li>
+             </ul>
+   </div>
+   <div class="left6_logo">
+        <ul>
+          <li><img src="../images/entry7_logo1.jpg"></li>
+          <li><img src="../images/entry7_logo2.jpg"></li>
+          <li><img src="../images/entry7_logo3.png"></li>
+          <li><img src="../images/entry7_logo4.jpg"></li>
+          <li><img src="../images/entry7_logo5.jpg"></li>
+          <li><img src="../images/entry7_logo6.jpg"></li>
+        </ul>
+   </div>
+</div>
+<!--inner_left6-->
+<div class="inner_right6">
+    <div class="right6_hd">
+        <h3>爱家</h3>
+        <ul>
+          <li>厨具3免1</li>
+          <li>家居3免1</li>
+          <li>建材3免1</li>
+          <li>家纺3免1</li>
+          <li>家具3免1</li>
+        </ul>
+    </div>
+    <div class="right6_show">
+       <ul>
+                <li><img src="../images/7_9.jpg" width="150" height="260"></li>
+                <li class="show_img"><img src="../images/7_10.png" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/7_11.png" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/7_12.jpg" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/7_13.jpg" width="100" height="100"></li>
+                <li class="show_img0"><img src="../images/7_14.jpg" width="150" height="130"></li>
+                <li class="show_img0"><img src="../images/7_15.jpg" width="150" height="130"></li>
+                <li class="show_img0"><img src="../images/7_16.jpg" width="150" height="130"></li>
+             </ul>
+    </div>
+    <div class="right6_logo">
+        <ul>
+          <li><img src="../images/entry7_logo7.jpg"></li>
+          <li><img src="../images/entry7_logo8.jpg"></li>
+          <li><img src="../images/entry7_logo9.jpg"></li>
+          <li><img src="../images/entry7_logo10.jpg"></li>
+          <li><img src="../images/entry7_logo11.jpg"></li>
+          <li><img src="../images/entry7_logo12.jpg"></li>
+        </ul>
+    </div>
+</div><!--inner_right6-->
+</div><!--Entry7 end-->
+
+<div class="Entry8">
+<div class="inner_left7">
+   <div class="left7_hd">
+       <h3>爱阅读</h3>
+       <ul>
+          <li>外语</li>
+          <li>历史</li>
+          <li>经管</li>
+          <li>摄影</li>
+          <li>编程</li>
+          <li>电子书</li>
+       </ul>
+   </div>
+   <div class="left7_show">
+             <ul>
+                <li><img src="../images/8_1.jpg" width="150" height="260"></li>
+                <li class="show_img"><img src="../images/8_2.jpg" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/8_3.jpg" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/8_4.jpg" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/8_5.jpg" width="100" height="100"></li>
+                <li class="show_img0"><img src="../images/8_6.jpg" width="150" height="130"></li>
+                <li class="show_img0"><img src="../images/8_7.jpg" width="150" height="130"></li>
+                <li class="show_img0"><img src="../images/8_8.jpg" width="150" height="130"></li>
+             </ul>
+   </div>
+   <div class="left7_logo">
+        <ul>
+          <li><img src="../images/entry8_logo1.jpg"></li>
+          <li><img src="../images/entry8_logo2.jpg"></li>
+          <li><img src="../images/entry8_logo3.jpg"></li>
+          <li><img src="../images/entry8_logo4.png"></li>
+          <li><img src="../images/entry8_logo5.jpg"></li>
+          <li><img src="../images/entry8_logo6.jpg"></li>
+        </ul>
+   </div>
+</div>
+<!--inner_left7-->
+<div class="inner_right7">
+    <div class="right7_hd">
+        <h3>爱车</h3>
+        <ul>
+          <li>爆款车</li>
+          <li>雪地胎</li>
+          <li>冬季坐垫</li>
+          <li>净化器</li>
+          <li>防冻液3免1</li>
+        </ul>
+    </div>
+    <div class="right7_show">
+       <ul>
+                <li><img src="../images/8_9.jpg" width="150" height="260"></li>
+                <li class="show_img"><img src="../images/8_10.jpg" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/8_11.png" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/8_12.jpg" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/8_13.png" width="100" height="100"></li>
+                <li class="show_img0"><img src="../images/8_14.jpg" width="150" height="130"></li>
+                <li class="show_img0"><img src="../images/8_15.jpg" width="150" height="130"></li>
+                <li class="show_img0"><img src="../images/8_16.jpg" width="150" height="130"></li>
+             </ul>
+    </div>
+    <div class="right7_logo">
+        <ul>
+          <li><img src="../images/entry8_logo7.jpg"></li>
+          <li><img src="../images/entry8_logo8.jpg"></li>
+          <li><img src="../images/entry8_logo9.jpg"></li>
+          <li><img src="../images/entry8_logo10.jpg"></li>
+          <li><img src="../images/entry8_logo11.jpg"></li>
+          <li><img src="../images/entry8_logo12.jpg"></li>
+        </ul>
+    </div>
+</div><!--inner_right7-->
+</div>
+<!--Entry8 end-->
+<div class="Entry9">
+    <div class="inner_left8">
+        <div class="left8_hd">
+            <h3>爱游戏</h3>
+               <ul>
+                  <li>充值</li>
+                  <li>游戏下载</li>
+                  <li>达人秀</li>
+               </ul>
+        </div>
+        <div class="left8_show">
+              <ul>
+                <li><img src="../images/9_1.jpg" width="150" height="260"></li>
+                <li class="show_img"><img src="../images/9_2.jpg" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/9_3.jpg" width="100" height="100"></li>
+                <li class="show_img0"><img src="../images/9_4.jpg" width="150" height="130"></li>
+                <li class="show_img0"><img src="../images/9_5.jpg" width="150" height="130"></li>
+             </ul>
+        </div>
+        <div class="left8_logo">
+             <ul>
+                <li><img src="../images/entry9_logo1.jpg"></li>
+                <li><img src="../images/entry9_logo2.jpg"></li>
+                <li><img src="../images/entry9_logo3.png"></li>
+                <li><img src="../images/entry9_logo4.jpg"></li>
+             </ul>
+        </div>
+    </div>
+<!--inner_left8-->
+    <div class="inner_mid">
+        <div class="mid_hd">
+            <h3>生活旅行</h3>
+               <ul>
+                  <li>机票</li>
+                  <li>火车票</li>
+                  <li>电影票</li>
+               </ul>
+        </div>
+        <div class="mid_show">
+              <ul>
+                <li><img src="../images/9_6.jpg" width="150" height="260"></li>
+                <li class="show_img"><img src="../images/9_7.jpg" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/9_8.jpg" width="100" height="100"></li>
+                <li class="show_img0"><img src="../images/9_9.jpg" width="150" height="130"></li>
+                <li class="show_img0"><img src="../images/9_10.jpg" width="150" height="130"></li>
+             </ul>
+        </div>
+        <div class="mid_logo">
+             <ul>
+                <li><img src="../images/entry9_logo5.jpg"></li>
+                <li><img src="../images/entry9_logo6.jpg"></li>
+                <li><img src="../images/entry9_logo7.jpg"></li>
+                <li><img src="../images/entry9_logo8.jpg"></li>
+             </ul>
+        </div>
+    </div>
+<!--inner_mid-->
+    <div class="inner_right8">
+        <div class="right8_hd">
+            <h3>京东金融</h3>
+               <ul>
+                  <li>小金库</li>
+                  <li>打白条</li>
+                  <li>筹好物</li>
+               </ul>
+        </div>
+        <div class="right8_show">
+             <ul>
+                <li><img src="../images/9_11.jpg" width="150" height="260"></li>
+                <li class="show_img"><img src="../images/9_12.png" width="100" height="100"></li>
+                <li class="show_img"><img src="../images/9_13.jpg" width="100" height="100"></li>
+                <li class="show_img0"><img src="../images/9_14.jpg" width="150" height="130"></li>
+                <li class="show_img0"><img src="../images/9_15.jpg" width="150" height="130"></li>
+             </ul>
+        </div>
+        <div class="right8_logo">
+              <ul>
+                <li><img src="../images/entry9_logo9.jpg"></li>
+                <li><img src="../images/entry9_logo10.jpg"></li>
+                <li><img src="../images/entry9_logo11.jpg"></li>
+                <li><img src="../images/entry9_logo12.jpg"></li>
+             </ul>
+        </div>
+    </div><!--inner_right8-->
+</div>
+<!--Entry9 end-->
+
+<div class="Entry10">
+    <div class="divider3">
+       <h3>购特色</h3>
+    </div>
+    <div class="entry10_inner">
+        <ul>
+           <li>
+              <img src="../images/10_1.jpg" width="130" height="140">
+              <div class="title1">
+              <h4>司法拍卖</h4>
+              <p>法院好货 公开抢拍</p>
+              </div>
+           </li>
+           <li>
+               <img src="../images/10_2.jpg" width="130" height="140">
+               <div class="title1">
+               <h4>环球时尚</h4>
+               <p>环球名品 奢华精选</p>
+               </div>
+           </li>
+           <li>
+               <img src="../images/10_3.jpg" width="130" height="140">
+               <div class="title1">
+               <h4>品牌特卖</h4>
+               <p>品牌限量秒杀手慢无</p>
+               </div>
+           </li>
+           <li>
+              <img src="../images/10_4.jpg" width="130" height="140">
+              <div class="title1">
+              <h4>京东健康</h4>
+              <p>跨万店3免1</p>
+              </div>
+           </li>
+           <li>
+               <img src="../images/10_5.jpg" width="130" height="140">
+               <div class="title1">
+               <h4>陪伴宝宝</h4>
+               <p>陪伴专享 买1得2</p>
+               </div>
+           </li>
+           <li>
+               <img src="../images/10_6.png" width="130" height="140">
+               <div class="title1">
+               <h4>企业购</h4>
+               <p>普惠耗材满999减150</p>
+               </div>
+           </li>
+           <li>
+              <img src="../images/10_7.jpg" width="130" height="140">
+              <div class="title1">
+              <h4>IN货推荐</h4>
+              <p>小米爆款低至￥1/期</p>
+              </div>
+           </li>
+        </ul>
+    </div>
+</div>
+<!--Entry10 end-->
+<div class="Banner4">
+  <ul>
+     <li><img src="../images/banner4_1.jpg" width="330" height="100"></li>
+     <li><img src="../images/banner4_2.jpg" width="330" height="100"></li>
+     <li><img src="../images/banner4_3.jpg" width="330" height="100"></li>
+  </ul>
+</div><!--banner4-->
+
+<div class="Continue">
+    <div class="divider4">
+       <h3>还没逛够</h3>
+    </div>
+    <div class="continue_show">
+        <ul>
+           <li class="IMG"><img src="../images/c1.jpg" width="180" height="170"></li>
+           <li class="IMG"><img src="../images/c2.jpg" width="180" height="170"></li>
+           <li class="IMG"><img src="../images/c3.jpg" width="180" height="170"></li>
+           <li class="IMG"><img src="../images/c4.jpg" width="180" height="170"></li>
+           <li class="IMG"><img src="../images/c5.png" width="180" height="170"></li>
+           <li class="IMG"><img src="../images/c6.jpg" width="180" height="170"></li>
+           <li class="IMG"><img src="../images/c7.jpg" width="180" height="170"></li>
+           <li class="IMG"><img src="../images/c8.jpg" width="180" height="170"></li>
+           <li class="IMG"><img src="../images/c9.jpg" width="180" height="170"></li>
+           <li class="IMG"><img src="../images/c10.jpg" width="180" height="170"></li>
+           <li class="IMG"><img src="../images/c11.jpg" width="180" height="170"></li>
+           <li class="IMG"><img src="../images/c12.jpg" width="180" height="170"></li>
+           <li class="IMG"><img src="../images/c13.jpg" width="180" height="170"></li>
+           <li class="IMG"><img src="../images/c14.png" width="180" height="170"></li>
+           <li class="IMG"><img src="../images/c15.jpg" width="180" height="170"></li>
+        </ul>
+    </div>
+</div>
+<!--Continue-->
+
+<div class="Finally">
+    <div class="advantage">
+       <ul>
+          <li>
+             <img src="../images/duo.png" align="middle">
+             品类齐全,轻松购物
+          </li>
+          <li>
+             <img src="../images/kuai.png" align="middle">
+             多仓直发,极速配送
+          </li>
+          <li>
+             <img src="../images/hao.png" align="middle">
+             正品行货,精致服务
+          </li>
+          <li>
+             <img src="../images/sheng.png" align="middle">
+             天天低价,畅选无忧
+          </li>
+       </ul>
+    </div>
+    <div class="help">
+        <div class="help_inner1">
+            <ul>
+               <h4>购物指南</h4>
+               <li>购物流程</li>
+               <li>会员介绍</li>
+               <li>生活旅行</li>
+               <li>常见问题</li>
+               <li>大家电</li>
+               <li>联系客服</li>
+            </ul>
+        </div>
+        <div class="help_inner1">
+            <ul>
+               <h4>配送方式</h4>
+               <li>上门自提</li>
+               <li>211限时达</li>
+               <li>配送服务查询</li>
+               <li>配送送费收取标准</li>
+               <li>海外配送</li>
+            </ul>
+        </div>
+        <div class="help_inner1">
+            <ul>
+               <h4>支付方式</h4>
+               <li>货到付款</li>
+               <li>在线支付</li>
+               <li>分期付款</li>
+               <li>邮局汇款</li>
+               <li>公司转账</li>
+            </ul>
+        </div>
+        <div class="help_inner1">
+            <ul>
+               <h4>售后服务</h4>
+               <li>售后政策</li>
+               <li>价格保护</li>
+               <li>退款说明</li>
+               <li>返修退/换货</li>
+               <li>取消订单</li>
+            </ul>
+        </div>
+        <div class="help_inner1">
+            <ul>
+               <h4>特色服务</h4>
+               <li>夺宝岛</li>
+               <li>DIY装机</li>
+               <li>延保服务</li>
+               <li>京东E卡</li>
+               <li>京东通信</li>
+               <li>京东JD+</li>
+            </ul>
+        </div>
+        <div class="help_inner1">
+            <ul>
+               <h4>京东自营覆盖区县</h4>
+               <li>京东已向全国2654个区县提供自营服务,支持货到付款、POS机刷卡,售后上门服务。</li>
+               <li>查看详情></li>
+            </ul>
+        </div>
+    </div><!--help end-->
+<div class="copyright">
+        <div class="copyright_list">
+        <ul>
+           <li>关于我们</li>
+           <li>联系我们</li>
+           <li>联系客服</li>
+           <li>商家入驻</li>
+           <li>营销中心</li>
+           <li>手机京东</li>
+           <li>友情链接</li>
+           <li>销售联盟</li>
+           <li>京东社区</li>
+           <li>风险监测</li>
+           <li>京东公益</li>
+           <li>English Site</li>
+           <li>Contact Us</li>
+        </ul>
+        </div>
+    </div><!--<copyright-->
+
+</div><!--Finally end-->
+</div><!--concontainer end-->
+<script src="../JS/jd.js"></script>
+
+</body>
+</html>
